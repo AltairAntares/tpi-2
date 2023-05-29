@@ -1,0 +1,146 @@
+P {
+    font-size : 12pt;
+    font-family : verdana,arial;
+    font-weight : normal;
+    text-align : center;
+    }
+a {
+      font-size : 12pt;
+      font-family : verdana,arial;
+      font-weight : normal;
+      text-align : center;
+      }
+
+TD {
+        font-size : 10pt;
+        font-family : verdana,arial;
+        text-align : center;
+        background-color :
+        666666;
+        }
+ H2 {
+    font-size : 36pt;
+    font-family : verdana,arial;
+    font-weight: 200;
+    text-decoration : underline;
+    text-align : center;
+    
+    }
+ H3 {
+      font-size : 24pt;
+      font-family : verdana,arial;
+      font-weight : normal;
+      text-align : center;
+    }
+
+
+ H4 {
+        font-size : 21pt;
+        font-family : verdana,arial;
+        text-decoration : underline;
+        text-align : left;
+      }
+  H5 {
+          font-size : 10pt;
+          font-family : verdana,arial;
+          font-weight : normal;
+          text-align : left;
+          
+      }
+  H6 {
+          font-size : 10pt;
+          font-family : verdana,arial;
+          font-weight : normal;
+          text-align : center;
+          
+      }  
+        
+ /* encabezado
+-------------------------------------------------- */        
+.encabezado-fijo {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         z-index: 9999;
+       }      
+.encabezado-fijo ul li a {
+        color: #fff;
+      }
+
+nav .nav-link:hover {
+        color: #888;
+      }
+
+ /* CAROUSEL
+-------------------------------------------------- */
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+  background-color: black;
+  height: 37rem;
+  min-height: 95vh;
+}
+
+.carousel-item img {
+  filter: opacity(0.6);
+  }
+
+
+  section.md-4 {
+    background-color: black;
+    color: white; /* para que el texto se vea claro */
+  }
+
+ /* pie
+-------------------------------------------------- */
+.container-pie {
+  background-color: #333;
+}
+
+.container-pie a {
+  color: #fff;
+}
+
+.container-pie a:hover {
+  color: #888;
+}
+.container-pie {
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-pie .navbar-nav {
+  display: inline-block;
+}
+
+.container-pie .nav-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container-pie a {
+  color: #fff;
+}
+
+.container-pie a:hover {
+  color: #888;
+}
+ /* formulario
+-------------------------------------------------- */
+.form-container {
+  width: 33.33%;
+  margin: 0 auto;
+}
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.form-input {
+  display: inline-block;
+  width: 45%;
+}
+.custom-formx {
+  background-color: rgb(89, 169, 196);
+}
